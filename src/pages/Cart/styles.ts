@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { darken, lighten } from 'polished';
 
-export const Container = styled.header`
+export const Container = styled.div`
   padding: 30px;
   background: #fff;
   border-radius: 4px;
@@ -40,7 +40,7 @@ export const ProductTable = styled.table`
   span {
     display: block;
     margin-top: 5px;
-    font-size: 18px;
+    font-size: 1.5rem;
     font-weight: bold;
   }
 
@@ -80,11 +80,42 @@ export const ProductTable = styled.table`
       }
     }
   }
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    thead th {
+      text-align: left;
+      padding: 2px;
+    }
+    tbody td {
+      padding: 2px;
+    }
+  }
+  @media all and (max-width: 480px) { 
+    font-size: 0.7rem;
+    thead th {
+      text-align: left;
+      padding: 2px;
+    }
+    tbody td {
+      padding: 2px;
+    }
+    span {
+      font-size: 1rem;
+    }
+    img {
+      height: 50px;
+    }
+  }
+
 `;
 
 export const Total = styled.div`
   display: flex;
   align-items: baseline;
+  margin-left:auto;
+  margin-right:0;
+  max-width:300px;
 
   span {
     color: #999;
@@ -92,7 +123,7 @@ export const Total = styled.div`
   }
 
   strong {
-    font-size: 28px;
+    font-size: 1.8rem;
     margin-left: 5px;
   }
 `;
@@ -100,5 +131,5 @@ export const Total = styled.div`
 export const footer = styled.footer`
   text-align: right;
   margin-left:auto;
-  margin-right0:0;
+  margin-right:0;
 `;
