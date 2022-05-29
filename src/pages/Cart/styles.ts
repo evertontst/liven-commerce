@@ -96,3 +96,9 @@ export const Total = styled.div`
     margin-left: 5px;
   }
 `;
+
+export const footer = styled.footer`
+  text-align: right;
+  margin-left:auto;
+  margin-right0:0;
+`;
