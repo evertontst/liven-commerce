@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { MdShoppingBasket } from 'react-icons/md';
+import { RiShoppingCartFill } from 'react-icons/ri';
 
 import logo from '../../assets/images/logo.png';
 import { Container, Content,Cart } from './styles';
@@ -22,7 +22,7 @@ const Header = (): JSX.Element => {
               {cartSize === 1 ? `${cartSize} item` : `${cartSize} itens`}
             </span>
           </div>
-          <MdShoppingBasket size={36} color="#FFF" />
+          <RiShoppingCartFill size={36} color="#FFF" />
         </Cart>
       </Content>
     </Container>
