@@ -3,7 +3,6 @@
 Projeto para avaliação técnica Frontend na vaga Liven.tech.
 
 **Deploy**
-
 https://liven-commerce-seven.vercel.app/
 
 ## Sobre mim
