@@ -85,7 +85,7 @@ export const ProductTable = styled.table`
   @media all and (min-width: 480px) and (max-width: 768px) {
     thead th {
       text-align: left;
-      padding: 2px;
+      padding: 3px;
     }
     tbody td {
       padding: 2px;
