@@ -17,7 +17,7 @@ export default createGlobalStyle`
   }
 
   body, input, button {
-    font-size:1rem;
+    font-size:0.9rem;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
   }
 
