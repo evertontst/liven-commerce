@@ -28,17 +28,6 @@ export const ProductList = styled.ul`
     border-radius: 4px;
     padding: 20px;
     text-align:center;
-    li {
-      vertical-align: middle;
-      height: 420px;
-      flex-direction: row;
-      align-items: center;
-    }
-    img {
-      align-self: center;
-      max-width: 245px;
-    }
-
     > strong {
       font-size: 1rem;
       line-height: 20px;
@@ -59,11 +48,11 @@ export const ProductList = styled.ul`
     button {
       background: rgb(120, 217, 138);
       color: #fff;
+      font-size:0.9rem;
       border: 0;
       border-radius: 4px;
       overflow: hidden;
       margin-top: auto;
-
       display: flex;
       align-items: center;
       transition: background 0.2s;
@@ -89,4 +78,21 @@ export const ProductList = styled.ul`
         font-weight: bold;
       }
     }
+  }
 `;
+export const ProductImage = styled.div`
+  vertical-align: middle;
+  height: 420px;
+  flex-direction: row;
+  align-items: center;
+  display: table;
+  span {
+    vertical-align:middle;
+    display: table-cell;
+  }
+  img {
+    align-self: center;
+    max-width: 245px;
+  }
+`;
+
