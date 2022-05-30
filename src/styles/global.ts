@@ -24,7 +24,6 @@ export default createGlobalStyle`
   #root {
     margin: 0 auto;
     text-align: center;
-    color: #fff;
   }
   @keyframes spinner {
     0% {
@@ -33,6 +32,9 @@ export default createGlobalStyle`
     100% {
       transform: rotate(360deg);
     }
+  }
+  .spinner-container {
+    color: #fff;
   }
   .loading-spinner {
     width: 50px;

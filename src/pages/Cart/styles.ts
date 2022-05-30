@@ -128,8 +128,40 @@ export const Total = styled.div`
   }
 `;
 
-export const footer = styled.footer`
+export const Footer = styled.footer`
   text-align: right;
   margin-left:auto;
   margin-right:0;
+  a {
+    text-decoration: none; 
+  }
+  button {
+    background: rgb(120, 217, 138);
+    color: #fff;
+    font-size:0.9rem;
+    border: 0;
+    border-radius: 4px;
+    overflow: hidden; 
+    margin-top: auto;
+    display: flex;
+    padding:10px 20px;
+    align-items: center;
+    transition: background 0.2s;
+    
+    &:hover {
+      background-color:#f4cc04;
+      text-decoration: none;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      padding: 12px;
+      background: rgba(0, 0, 0, 0.1);
+
+      svg {
+        margin-right: 5px;
+      }
+    }
+  }
 `;
