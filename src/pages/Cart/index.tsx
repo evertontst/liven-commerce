@@ -6,7 +6,7 @@ import {
 
 import { useCart } from '../../hooks/useCart';
 import { priceBRL } from '../../util/format';
-import { Container, ProductTable, Total } from './styles';
+import { Container, ProductTable, Footer, Total } from './styles';
 
 interface Product {
   id: number;
@@ -109,12 +109,13 @@ const Cart = (): JSX.Element => {
         </tbody>
       </ProductTable>
 
-      <footer>
+      <Footer>
+        <a href="/"><button type="button">Voltar</button></a>
         <Total>
           <span>TOTAL</span>
           <strong>{total}</strong>
         </Total>
-      </footer>
+      </Footer>
     </Container>
   );
 };
