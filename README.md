@@ -1,7 +1,9 @@
 ![Liven.tech](https://liven.tech/_next/image?url=%2Fimages%2Flogo-2x.png&w=256&q=75)
 
 Projeto para avaliação técnica Frontend na vaga Liven.tech.
+
 **Deploy**
+
 https://liven-commerce-seven.vercel.app/
 
 ## Sobre mim
